@@ -3,11 +3,9 @@
       {
         "type": "cppbuild",
         "label": "C/C++: g++.exe build active file",
-        "command": "C:/cygwin64/bin/g++.exe",
-        "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
-        "options": {
-          "cwd": "${fileDirname}"
-        },
+        "command": "C:/minGW/bin/g++.exe",
+        "args": ["-g", "${file}", "-o", "C:/Users/Tomek-PC/Documents/GitHub/SOME_WIERD_PREJECT_FOR_SCHOOL/main.exe", "-Wall", "-Werror"],
+        
         "problemMatcher": ["$gcc"],
         "group": {
           "kind": "build",
